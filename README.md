@@ -5,6 +5,7 @@ Please check the file requirements.txt for the list of packages required.
 Use spark-submit to run the script, provided adding the pyspark installation directory to PATH variable and have the soure code path in the variable PYTHON_PATH
 
 Example: spark-submit --master local dataframeClient.py
+
 This command executes the spark-submit on the local machine.
 
 To execute it on any cluster, please give the host details to the master agrument.
