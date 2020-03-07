@@ -1,4 +1,4 @@
-This repo contains some of my Pyspark dataframe works.
+This repo contains some of my dataframe works in Pyspark.
 
 Please check the file requirements.txt for the list of packages required.
 
