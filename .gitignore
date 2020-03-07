@@ -1,0 +1,4 @@
+#log and DB files
+-------------------
+*.log
+*.db
