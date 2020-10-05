@@ -12,4 +12,4 @@ To execute it on any cluster, please give the host details to the master agrumen
 Example: spark-submit --master spark://[hostname]:[port#] dataframeClient.py
 
 To launch the drive program on one of the worker machines inside the cluster, pass DEPLOY_MODE value to the argument deploy mode.
-Example: spark-submit --master spark://[hostname]:[port#] --deploy-mode [client/cluster] dataframeClient.py
+Example: spark-submit --master spark://[hostname]:[port#] --deploy-mode cluster dataframeClient.py
