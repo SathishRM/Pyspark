@@ -9,7 +9,9 @@ Example: spark-submit --master local dataframeClient.py
 This command executes the spark-submit on the local machine.
 
 To execute it on any cluster, please give the host details to the master agrument.
-Example: spark-submit --master spark://[hostname]:[port#] dataframeClient.py
+
+--> spark-submit --master [host/yarn] --py-files util.zip --files [config_file] dataframeClient.py
 
 To launch the drive program on one of the worker machines inside the cluster, pass DEPLOY_MODE value to the argument deploy mode.
-Example: spark-submit --master spark://[hostname]:[port#] --deploy-mode cluster dataframeClient.py
+
+--> spark-submit --master [host/yarn] --deploy-mode cluster --py-files util.zip --files [config_file] dataframeClient.py
